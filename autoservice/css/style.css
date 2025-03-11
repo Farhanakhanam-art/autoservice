@@ -1,0 +1,466 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --lightgrey: #EBEAEA;
+  --orange: #bf2d0d;
+  --white: #ffffff;
+  --black: #000000;
+  --grey: #959595;
+  --greytext: #D9D9D9;
+  --darkgrey:#393939;
+  --chooseP:#8A8A8A;
+}
+/* body{
+  max-width: 1440px;
+  margin: auto;
+} */
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.top_bar {
+  background-color: #bf2d0d;
+  color: white;
+  padding: 8px 0;
+  font-size: 14px;
+}
+.top_bar .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  background-color: #bf2d0d;
+  color: white;
+  font-size: 14px;
+  /* max-width: 1240px; */
+  max-width: 1240px;
+  margin: auto;
+}
+.top-bar {
+}
+.navbar {
+  padding: 15px 0;
+}
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.navbar_brand a {
+  color: white;
+  font-size: 30px;
+  font-weight: 900;
+}
+.btn {
+  background: none;
+  border: 2px solid #bf2d0d;
+  padding: 5px 15px;
+  color: #bf2d0d;
+  font-weight: bold;
+  border-radius: 6px;
+}
+.nav_links ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.nav_links ul li {
+  margin: 0 10px;
+}
+
+.nav_links ul li a {
+  color: rgb(94, 94, 94);
+  font-weight: 600;
+  padding: 5px;
+  text-decoration: none;
+}
+.banner {
+  background-image: url("../img/Banner\ 1.jpg");
+  position: relative;
+  height: 620px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  color: white;
+}
+.service-box {
+  background-color: white;
+  /* padding: 20px; */
+  padding: 44px 25px 48px 25px;
+  /* top left bottom right , jodi left and rigt er padding same dite chai tahole top left-right bottom */
+  
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 430px;
+  height: 540px;
+  /* position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%); */
+}
+.hero{
+  width: 1040px;
+  /* background-color: #bf2d0d; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+
+}
+.service-box h3{
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+ 
+  text-align: center;
+
+}
+.service-options {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+.dropdowns select {
+  width: 380px;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  height: 52px;
+}
+.search-btn {
+  background-color:var(--orange);
+  color: white;
+  padding: 12px;
+  border: none;
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 5px;
+  height: 52px;
+  
+  font-weight: bold;
+}
+/* .row {
+  display: flex;
+  gap: 10px;
+}
+
+.row select {
+  width: 50%;
+} */
+.dropdowns {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  max-width: 380px;
+}
+
+.row select {
+  width: 50%;  /* Each select box takes half of the row width */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+.hero-content {
+  
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 500px;
+}
+.hero-content h3{
+  font-size: 24px;
+  color: var(--orange);
+  font-weight: bold;
+}
+.hero-content h1{
+  font-size: 52px;
+  margin-top: 32px;
+}
+.hero-content p{
+  color: var(--greytext);
+}
+.read-more {
+  background-color: rgb(255, 255, 255);
+  color:var(--orange);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  
+  height: 52px;
+  width: 187px;
+}
+.container h2{
+  font-size: 42px;
+}
+.highlight{
+  
+    display: inline-block;
+    background: var(--orange);
+    color: white;
+    padding: 5px 15px;
+    font-weight: bold;
+    font-size: 24px;
+    transform: skewX(-15deg); /* Skew the element */
+    /* display: inline-block; */
+}
+.service-text{
+  text-align: center;
+}
+.section-paddingS{
+  padding: 100px 0px 100px;
+}
+.service-icon{
+  height: 100px;
+  width: 100px;
+  background-color: var(--orange);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.service-icon img{
+  height: 50px;
+}
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+  
+}
+.service{
+  background-color: var(--darkgrey);
+  height: 630px;
+  width: 100%;
+}
+.service-card{
+  max-width: 281px;
+  /* display: flex; */
+  /* align-items: center; */
+  text-align: center;
+  
+}
+.read-more1 {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 15px;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  /* margin: auto; */
+  /* padding: auto; */
+ 
+  /* cursor: pointer;
+  transition: 0.3s; */
+}
+
+.service-text h3 {
+  margin-top: 15px;
+  font-size: 20px;
+  color: var(--white);
+}
+.service-text p {
+  margin-top: 10px;
+  /* font-size: 14px; */
+  color: var(--greytext);
+  
+}
+.image-offer{
+  height: 624px;
+  width: 50%;
+}
+.content-offer{
+  height: 624px;
+  width: 50%;
+  background-color: var(--orange);
+  /* display: flex; */
+  
+}
+.offer img{
+  object-fit: cover;
+  height: 624px;
+  width: 100%;
+
+}
+.offer{
+  display: flex;
+  width: 100%;
+  
+}
+.offer span{
+  display: block;
+}
+.table{
+  display: flex;
+  max-width: 589px;
+  justify-content: space-between;
+}
+.choose-us p{
+  color: var(--chooseP);
+}
+.read-more3{
+  background-color: rgb(255, 255, 255);
+  color:var(--orange);
+  padding: 10px 15px;
+  border: 2px solid var(--orange);
+  border-radius: 5px;
+  
+  height: 52px;
+  width: 187px;
+
+}
+.choose-us{
+  text-align: center;
+}
+.car-picture{
+  text-align: center;
+}
+.our-facility{
+  height: 100px;
+  width: 100px;
+  background-color: aquamarine;
+}
+.facility{
+  display: flex;
+  justify-content: space-between;
+}
+.features {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  gap: 40px;
+  padding: 50px;
+  background-color: white;
+}
+
+/* Feature card styling */
+.feature-card {
+  text-align: center;
+  max-width: 250px;
+}
+
+/* Diamond shape for icons */
+.icon {
+  width: 80px;
+  height: 80px;
+  background-color: #b02b16;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(45deg);
+  margin: 0 auto 15px;
+  border: 2px solid black;
+}
+
+.icon img {
+  width: 50px;
+  height: 50px;
+  transform: rotate(-45deg); /* Rotate icon back to normal */
+}
+
+/* Headings */
+h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Paragraph */
+p {
+  font-size: 14px;
+  color: #666;
+}
+.our-work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 50px 20px;
+}
+/* suppose 4 te card akta div er modde ache jar class holo x, sei x div a flex apply korte hobe por por sajte hole */
+
+/* Step Box */
+.step {
+  max-width: 250px;
+  position: relative;
+  text-align: center;
+}
+
+/* Image Container */
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Arrows */
+.arrow {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  background: url('../img/Arrow-01\ 1.png') no-repeat center;
+ 
+}
+
+/* Right-facing Arrow */
+.arrow-right {
+  top: 50%;
+  right: -90px;
+  transform: translateY(-50%);
+}
+
+/* Left-facing Arrow */
+.arrow-left {
+  top: 50%;
+  left: -90px;
+  transform: translateY(-50%) scaleX(-1);
+}
+
+/* Headings */
+h3 {
+  font-size: 18px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+/* Paragraph */
+p {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
+
+
+
+

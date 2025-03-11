@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style1.css">
+    <style>
+        /* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.vehicle-types button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.services, .about-us, .packages {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.service-cards, .package-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card, .package-card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card h3, .package-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card p, .package-card p {
+    font-size: 16px;
+    color: #666;
+}
+
+.card a, .package-card a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.stat h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-section {
+    width: 30%;
+}
+
+.footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section ul {
+    font-size: 16px;
+    color: #ccc;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-section input {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.footer-section button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ccc;
+} */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.vehicle-types button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.services, .about-us, .packages {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.service-cards, .package-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card, .package-card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card h3, .package-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card p, .package-card p {
+    font-size: 16px;
+    color: #666;
+}
+
+.card a, .package-card a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.stat h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-section {
+    width: 30%;
+}
+
+.footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section ul {
+    font-size: 16px;
+    color: #ccc;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-section input {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.footer-section button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ccc;
+}
+    </style>
+</head>
+<body>
+    <body>
+        <!-- <header>
+            <div class="logo">PERFORMANGE</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Spares</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <section class="hero">
+            <h1>Experience The Best Services</h1>
+            <div class="vehicle-types">
+                <button>2 Wheeler</button>
+                <button>4 Wheeler</button>
+            </div>
+        </section>
+    
+        <section class="services">
+            <h2>We Provide EXBErESEWIES</h2>
+            <div class="service-cards">
+                <div class="card">
+                    <h3>Maintenance</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#">Read more</a>
+                </div>
+                <div class="card">
+                    <h3>Wheels & Tires</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#">Read more</a>
+                </div>
+                <div class="card">
+                    <h3>Fuel Change</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+        </section>
+    
+        <section class="about-us">
+            <h2>Why Us</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <div class="stats">
+                <div class="stat">
+                    <h3>1000+ Technicians</h3>
+                </div>
+                <div class="stat">
+                    <h3>520 Locations</h3>
+                </div>
+                <div class="stat">
+                    <h3>10 Years Experience</h3>
+                </div>
+            </div>
+        </section>
+    
+        <section class="packages">
+            <h2>Our Packages</h2>
+            <div class="package-cards">
+                <div class="package-card">
+                    <h3>BASIC PACKAGE</h3>
+                    <p>2 Hours</p>
+                    <ul>
+                        <li>Prewash</li>
+                        <li>AC Checkup</li>
+                    </ul>
+                </div>
+                <div class="package-card">
+                    <h3>DELUXE PACKAGE</h3>
+                    <p>5 Hours</p>
+                    <ul>
+                        <li>Include the Basic Package</li>
+                        <li>Wheel Shine</li>
+                    </ul>
+                </div>
+                <div class="package-card">
+                    <h3>PLATINUM PACKAGE</h3>
+                    <p>8 Hours</p>
+                    <ul>
+                        <li>Include the Basic Package</li>
+                        <li>Include the Deluxe Package</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>Email Address: info@autoservice.com</p>
+                    <p>Contact No: +123 456 7890</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">About Company</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Get Our Newsletter</h3>
+                    <input type="email" placeholder="Enter your email address">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright @ 2023 Auto Service. All rights reserved</p>
+            </div>
+        </footer>
+    </body> -->
+    <header>
+        <div class="logo">PERFORMANGE</div>
+        <nav>
+            <ul>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Spares</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Experience The Best Services</h1>
+        <div class="vehicle-types">
+            <button>2 Wheeler</button>
+            <button>4 Wheeler</button>
+        </div>
+    </section>
+
+    <section class="services">
+        <h2>We Provide EXBErESEWIES</h2>
+        <div class="service-cards">
+            <div class="card">
+                <h3>Maintenance</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#">Read more</a>
+            </div>
+            <div class="card">
+                <h3>Wheels & Tires</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#">Read more</a>
+            </div>
+            <div class="card">
+                <h3>Fuel Change</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-us">
+        <h2>Why Us</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <div class="stats">
+            <div class="stat">
+                <h3>1000+ Technicians</h3>
+            </div>
+            <div class="stat">
+                <h3>520 Locations</h3>
+            </div>
+            <div class="stat">
+                <h3>10 Years Experience</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="packages">
+        <h2>Our Packages</h2>
+        <div class="package-cards">
+            <div class="package-card">
+                <h3>BASIC PACKAGE</h3>
+                <p>2 Hours</p>
+                <ul>
+                    <li>Prewash</li>
+                    <li>AC Checkup</li>
+                </ul>
+            </div>
+            <div class="package-card">
+                <h3>DELUXE PACKAGE</h3>
+                <p>5 Hours</p>
+                <ul>
+                    <li>Include the Basic Package</li>
+                    <li>Wheel Shine</li>
+                </ul>
+            </div>
+            <div class="package-card">
+                <h3>PLATINUM PACKAGE</h3>
+                <p>8 Hours</p>
+                <ul>
+                    <li>Include the Basic Package</li>
+                    <li>Include the Deluxe Package</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email Address: info@autoservice.com</p>
+                <p>Contact No: +123 456 7890</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">About Company</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Get Our Newsletter</h3>
+                <input type="email" placeholder="Enter your email address">
+                <button>Subscribe</button>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright @ 2023 Auto Service. All rights reserved</p>
+        </div>
+    </footer>
+    
+
+
+    
+</body>
+</html>
